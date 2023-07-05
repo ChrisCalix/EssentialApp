@@ -9,13 +9,9 @@
 /* Begin PBXBuildFile section */
 		C32D83882A55D247003C44F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D83872A55D247003C44F3 /* AppDelegate.swift */; };
 		C32D838A2A55D247003C44F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D83892A55D247003C44F3 /* SceneDelegate.swift */; };
-		C32D838C2A55D247003C44F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D838B2A55D247003C44F3 /* ViewController.swift */; };
 		C32D838F2A55D247003C44F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32D838D2A55D247003C44F3 /* Main.storyboard */; };
 		C32D83912A55D248003C44F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32D83902A55D248003C44F3 /* Assets.xcassets */; };
 		C32D83942A55D248003C44F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32D83922A55D248003C44F3 /* LaunchScreen.storyboard */; };
-		C32D839F2A55D248003C44F3 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D839E2A55D248003C44F3 /* EssentialAppTests.swift */; };
-		C32D83A92A55D248003C44F3 /* EssentialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D83A82A55D248003C44F3 /* EssentialAppUITests.swift */; };
-		C32D83AB2A55D248003C44F3 /* EssentialAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32D83AA2A55D248003C44F3 /* EssentialAppUITestsLaunchTests.swift */; };
 		C32D83BA2A55D3B5003C44F3 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32D83B82A55D3B5003C44F3 /* EssentialFeed.framework */; };
 		C32D83BB2A55D3B5003C44F3 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C32D83B82A55D3B5003C44F3 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C32D83BC2A55D3B5003C44F3 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32D83B92A55D3B5003C44F3 /* EssentialFeediOS.framework */; };
@@ -58,16 +54,12 @@
 		C32D83842A55D247003C44F3 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32D83872A55D247003C44F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32D83892A55D247003C44F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C32D838B2A55D247003C44F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C32D838E2A55D247003C44F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32D83902A55D248003C44F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32D83932A55D248003C44F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32D83952A55D248003C44F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32D839A2A55D248003C44F3 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C32D839E2A55D248003C44F3 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		C32D83A42A55D248003C44F3 /* EssentialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C32D83A82A55D248003C44F3 /* EssentialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITests.swift; sourceTree = "<group>"; };
-		C32D83AA2A55D248003C44F3 /* EssentialAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C32D83B82A55D3B5003C44F3 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32D83B92A55D3B5003C44F3 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,7 +117,6 @@
 			children = (
 				C32D83872A55D247003C44F3 /* AppDelegate.swift */,
 				C32D83892A55D247003C44F3 /* SceneDelegate.swift */,
-				C32D838B2A55D247003C44F3 /* ViewController.swift */,
 				C32D838D2A55D247003C44F3 /* Main.storyboard */,
 				C32D83902A55D248003C44F3 /* Assets.xcassets */,
 				C32D83922A55D248003C44F3 /* LaunchScreen.storyboard */,
@@ -137,7 +128,6 @@
 		C32D839D2A55D248003C44F3 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C32D839E2A55D248003C44F3 /* EssentialAppTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -145,8 +135,6 @@
 		C32D83A72A55D248003C44F3 /* EssentialAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C32D83A82A55D248003C44F3 /* EssentialAppUITests.swift */,
-				C32D83AA2A55D248003C44F3 /* EssentialAppUITestsLaunchTests.swift */,
 			);
 			path = EssentialAppUITests;
 			sourceTree = "<group>";
@@ -292,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32D838C2A55D247003C44F3 /* ViewController.swift in Sources */,
 				C32D83882A55D247003C44F3 /* AppDelegate.swift in Sources */,
 				C32D838A2A55D247003C44F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -302,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32D839F2A55D248003C44F3 /* EssentialAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32D83A92A55D248003C44F3 /* EssentialAppUITests.swift in Sources */,
-				C32D83AB2A55D248003C44F3 /* EssentialAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
